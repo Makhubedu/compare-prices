@@ -1,0 +1,111 @@
+.main {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 8px;
+}
+
+.root {
+    max-width: 345px;
+    width: 344px;
+    position: relative;
+    padding: 20px;
+}
+
+.media {
+    height: 30vh;
+    object-fit: contain;
+    width: 100%;
+}
+
+.game {
+    display: flex;
+    position: relative;
+    margin-top: 9vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.makro {
+    display: flex;
+    position: relative;
+    margin-top: 9vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkers {
+    display: flex;
+    position: relative;
+    margin-top: 9vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.picknpay {
+    display: flex;
+    position: relative;
+    margin-top: 9vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoprite {
+    display: flex;
+    position: relative;
+    margin-top: 9vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px;
+}
+
+.second {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px;
+    margin-top: 60vh;
+}
+
+.swipe-shoprite {
+    position: absolute;
+    top: 0;
+}
+
+.swipe-game {
+    position: absolute;
+    top: 0;
+}
+
+.swipe-makro {
+    position: absolute;
+    top: 0;
+}
+
+.swipe-checkers {
+    position: absolute;
+    top: 0;
+}
+
+.swipe-picknpay {
+    position: absolute;
+    top: 0;
+}
+
+.lazy {
+    position: absolute;
+    height: 20vh;
+    width: 8vw;
+    object-fit: contain;
+    margin-bottom: 10vh;
+}

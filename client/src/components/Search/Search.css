@@ -1,0 +1,11 @@
+.lazyloaded {
+    height: 30vh;
+    width: 30vw;
+    object-fit: contain;
+}
+
+.headers {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 18px;
+}
